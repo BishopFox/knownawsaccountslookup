@@ -1,6 +1,6 @@
 # Known AWS Accounts Lookup
 
-This go module provides two lookup functions for the data in https://raw.githubusercontent.com/fwdcloudsec/known_aws_accounts/, which is owned and operated by the `fwdcloudsec` team. 
+This go module provides two lookup functions for the data in fwd:cloudsec's [known_aws_accounts](https://raw.githubusercontent.com/fwdcloudsec/known_aws_accounts/) repo, which is owned and operated by the `fwdcloudsec` team. 
 
 Data source of truth: https://raw.githubusercontent.com/fwdcloudsec/known_aws_accounts/main/accounts.yaml.
 
