@@ -16,6 +16,16 @@ func TestGetVendorNameFromAccountID(t *testing.T) {
 			accountId:      "454464851268",
 			expectedResult: "Cloudhealth",
 		},
+		{
+			name:           "test2",
+			accountId:      "370134896156",
+			expectedResult: "Fugue",
+		},
+		{
+			name:           "test2",
+			accountId:      "944830124550",
+			expectedResult: "Fugue",
+		},
 	}
 
 	for _, subtest := range subtests {
@@ -54,7 +64,7 @@ func TestGetAccountIdsFromVendorName(t *testing.T) {
 			vendors.PopulateKnownAWSAccounts()
 			result := vendors.GetAccountIdsFromVendorName(subtest.vendorName)
 			if result[0] != subtest.expectedResult[0] {
-				log.Fatal("Vendor name does not match expected name")
+				log.Fatal("AccountID does not match expected AccountID")
 			}
 		})
 	}
