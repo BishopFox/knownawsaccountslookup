@@ -34,7 +34,10 @@ func main() {
 	fmt.Println(vendorName)
 }
 ```
-
+Output: 
+```
+Cloudhealth
+```
 
 ### GetAccountIdsFromVendorName
 
@@ -59,3 +62,8 @@ func main() {
 	fmt.Println(accountIds)
 }
 ```
+Output: 
+```
+[370134896156 944830124550]
+```
+
